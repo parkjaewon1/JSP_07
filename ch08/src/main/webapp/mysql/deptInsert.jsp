@@ -12,7 +12,7 @@
 	String url="jdbc:mysql://127.0.0.1:3306/test?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true";
 	try {
 		Class.forName(driver);
-		conn= DriverManager.getConnection(url, "root", "wo1041819");
+		conn= DriverManager.getConnection(url, "root", "mysql");
 		pstmt = conn.prepareStatement(sql);
 		pstmt.setInt(1, deptno);
 		pstmt.setString(2, dname);

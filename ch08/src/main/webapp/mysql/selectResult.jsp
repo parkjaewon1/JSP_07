@@ -10,8 +10,8 @@
 	<tr><td><%=dept.getDeptno() %></td>
 		<td><%=dept.getDname() %></td>
 		<td><%=dept.getLoc() %></td>
-		<td>수정</td>
-		<td>삭제</td></tr>
+		<td><a href="deptUpdateForm.jsp?deptno=<%=dept.getDeptno()%>">수정</a></td>
+		<td><a href="deleteDept.jsp?deptno=<%=dept.getDeptno()%>">삭제</a></td></tr>
 <%  } %>
 </table>
 <a href="deptInsertForm.jsp">부서정보 입력</a>
