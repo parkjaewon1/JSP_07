@@ -11,10 +11,10 @@
 	<tr><td>${dept.deptno }</td>
 		<td>${dept.dname }</td>
 		<td>${dept.loc }</td>
-		<td>수정</td>
+		<td><a href="deptUpdateForm.jsp?deptno=${dept.deptno }">수정</a></td>
 		<td>삭제</td>
 </c:forEach>
 </table>
-<a>부서정보 입력</a>
+<a href="deptInsertForm.jsp">부서정보 입력</a>
 </body>
 </html>

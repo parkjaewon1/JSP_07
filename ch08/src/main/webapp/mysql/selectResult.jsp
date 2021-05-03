@@ -14,6 +14,6 @@
 		<td>삭제</td></tr>
 <%  } %>
 </table>
-<a>부서정보 입력</a>
+<a href="deptInsertForm.jsp">부서정보 입력</a>
 </body>
 </html>
